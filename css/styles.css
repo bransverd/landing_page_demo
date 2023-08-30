@@ -153,14 +153,28 @@ p {
 
 .action-box {
     background-color: #3882F6;
-    padding: 20px 40px;
+    padding: 40px 120px;
+    margin: 40px 0px;
     border-radius: 8px;
     display: flex;
+    justify-content: space-between;
 
 }
 
-.white-border {
+.action-box h4 {
+    margin: 0px;
+    color: white;
+}
+
+.action-box p {
+    color: white;
+}
+
+.call-to-action-button {
     border: 3px solid white;
+    margin-top: 0px;
+    height: 25%;
+    align-self: center;
 }
 
 .footer {
